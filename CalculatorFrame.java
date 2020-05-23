@@ -4,7 +4,10 @@ import javax.swing.*;
 
 class CalculatorFrame extends JFrame implements ActionListener
 {	
-	//Instantiate private objects to go into the frame here.
+	// Our serializable ID.
+	private static final long serialVersionUID = 5014337563587485950L;
+
+	// Instantiate private objects to go into the frame here.
 	private InputField textField;
 	private OutputField result;
 	private JButton addition;
@@ -29,7 +32,7 @@ class CalculatorFrame extends JFrame implements ActionListener
 		addition = new JButton("+");
 		subtraction = new JButton("-");
 		multiplication = new JButton("*");
-		division = new JButton("÷");
+		division = new JButton("ï¿½");
 		equals = new JButton("=");
 		zero = new JButton("0");
 		one = new JButton("1");
