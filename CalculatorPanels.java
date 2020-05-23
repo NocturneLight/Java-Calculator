@@ -1,28 +1,33 @@
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-class InputField extends JTextField
-{	
+class InputOutputField extends JTextField
+{
 	// Our serial ID.
-	private static final long serialVersionUID = -3880571280993282154L;
+	private static final long serialVersionUID = 8749667794372058296L;
 
-	public InputField()
+	public InputOutputField()
 	{
-		//Create an instance of a JTextField so that when the class is called, a textfield is created.
-		new JTextField();
+		
 	}
 }
 
-class OutputField extends JTextField
+class BitToggler extends JLabel
 {	
 	// Our serial ID.
-	private static final long serialVersionUID = 5593251170527160291L;
+	private static final long serialVersionUID = -487169513164887805L;
 
-	public OutputField()
-	{
-		//Create an instance of a JTextField so that when the class is called, a textfield is created.
-		new JTextField();
+	public BitToggler()
+	{	
+        
 	}
 }
 
+class BaseRadioButtons extends JPanel
+{
 
-
+	// Our serial ID.
+	private static final long serialVersionUID = 8828614944151448907L;
+	
+}
